@@ -45,16 +45,34 @@ body {
 }
 
 /* Welcome Section */
+
  .welcome {
     min-height: 400px;
-    /* background-color: var(--bgcolor); */
     padding: 3rem;
     display: grid;
     color: var(--fontcolor);
     justify-items: end;
  }
 
+ .services_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--fontcolor);
+    justify-items: center;
+    padding: 4rem;
+ }
 
+ /* My Works */
+
+.works {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(autofit, minmax(3, 1fr));
+}
+
+.portfolio a img {
+    width: 100%
+}
 
 
 

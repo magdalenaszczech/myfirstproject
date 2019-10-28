@@ -1,8 +1,19 @@
 :root {
-    --fontcolorbg: white;
     --fontcolor: rgb(151, 151, 151); 
     --bgcolor: rgb(255, 121, 78);
     --activecolor: ;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: white;
+}
+
+.content {
+    display: grid;
 }
 
 *, *::before, *::after {
@@ -10,4 +21,28 @@
 }
 
 /* Navigation Style */
+
+.navbar ul {
+    display: grid;
+    padding: 3rem;
+    list-style: none;
+    background-color: var(--bgcolor);
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navbar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.navbar:first-line {
+    font-weight: bold;
+}
 

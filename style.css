@@ -1,0 +1,13 @@
+:root {
+    --fontcolorbg: white;
+    --fontcolor: rgb(151, 151, 151); 
+    --bgcolor: rgb(255, 121, 78);
+    --activecolor: ;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Navigation Style */
+

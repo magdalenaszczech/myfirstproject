@@ -1,6 +1,6 @@
 :root {
-    --fontcolor: rgb(151, 151, 151); 
-    --bgcolor: rgb(255, 121, 78);
+    --fontcolor: rgba(151, 150, 150, 0.747); 
+    --bgcolor: rgba(255,223,244,0.6);
     --activecolor: ;
 }
 
@@ -26,7 +26,8 @@ body {
     display: grid;
     padding: 3rem;
     list-style: none;
-    background-color: var(--bgcolor);
+    background: rgb(255,223,244);
+    background: linear-gradient(90deg, rgba(255,223,244,0.4) 53%, rgba(255,255,255,0.5) 100%);
     width: 100%;
     height: 100%;
     grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
@@ -34,15 +35,27 @@ body {
 
 .navbar a{
     display: block;
-    color: white;
+    color: rgba(173, 173, 173, 0.747);
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem;
     text-align: center;
     font-size: 1.5rem;
-}
-
-.navbar:first-line {
     font-weight: bold;
 }
+
+/* Welcome Section */
+ .welcome {
+    min-height: 400px;
+    /* background-color: var(--bgcolor); */
+    padding: 3rem;
+    display: grid;
+    color: var(--fontcolor);
+    justify-items: end;
+ }
+
+
+
+
+
 
